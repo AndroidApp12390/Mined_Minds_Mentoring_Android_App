@@ -26,17 +26,17 @@ define(['require'], function(require) {
      * @property {string} when["/Profile.html"].c  - Controller for /Profile.html URL
      * @property {string} when["/Profile.html"].t  - Template for /Profile.html URL
      * @property {string[]} when["/Profile.html"].d  - Dependencies for /Profile.html URL
-     * @property {object} when["/Info.html"]    - Routing configuration for /Info.html URL
-     * @property {string} when["/Info.html"].c  - Controller for /Info.html URL
-     * @property {string} when["/Info.html"].t  - Template for /Info.html URL
-     * @property {string[]} when["/Info.html"].d  - Dependencies for /Info.html URL
+     * @property {object} when["/login.html"]    - Routing configuration for /login.html URL
+     * @property {string} when["/login.html"].c  - Controller for /login.html URL
+     * @property {string} when["/login.html"].t  - Template for /login.html URL
+     * @property {string[]} when["/login.html"].d  - Dependencies for /login.html URL
 
      * @property {object} otherwise                             - Routing configuration for another URL
      * @property {object} otherwise.redirectTo                  - Redirect to default routing URL
      * @property {object} route_names                           - Route aliases
      * @property {string} route_names.["Home"]  - "Home" is an alias for "/Home.html" routing
      * @property {string} route_names.["Profile"]  - "Profile" is an alias for "/Profile.html" routing
-     * @property {string} route_names.["Info"]  - "Info" is an alias for "/Info.html" routing
+     * @property {string} route_names.["Info"]  - "Info" is an alias for "/login.html" routing
 
      */
     return {
@@ -53,9 +53,9 @@ define(['require'], function(require) {
                 t: '$Profile/ProfileTemplate.html',
                 d: []
             },
-            '/Info.html': {
-                c: '$Info/InfoController',
-                t: '$Info/InfoTemplate.html',
+            '/login.html': {
+                c: '$login/loginController',
+                t: '$login/loginTemplate.html',
                 d: []
             }
 
@@ -64,7 +64,7 @@ define(['require'], function(require) {
         route_names: {
             'Home': '/Home.html',
             'Profile': '/Profile.html',
-            'Info': '/Info.html'
+            'Info': '/login.html'
 
         }
     };

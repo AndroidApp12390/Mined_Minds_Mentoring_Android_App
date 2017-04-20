@@ -76,3 +76,29 @@ ion-side-menu.menu {
 .aio-empty-screen:not(.has-footer):not(.has-tabs) {
 	bottom: 0;
 }
+.aio-empty-screen {
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	overflow-y: auto;
+}
+.aio-empty-screen:not(.has-header):not(.has-tabs-top) {
+	top: 0;
+}
+.aio-empty-screen:not(.has-footer):not(.has-tabs) {
+	bottom: 0;
+}
+.aio-empty-screen {
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	overflow-y: auto;
+}
+.aio-empty-screen:not(.has-header):not(.has-tabs-top) {
+	top: 0;
+}
+.aio-empty-screen:not(.has-footer):not(.has-tabs) {
+	bottom: 0;
+}

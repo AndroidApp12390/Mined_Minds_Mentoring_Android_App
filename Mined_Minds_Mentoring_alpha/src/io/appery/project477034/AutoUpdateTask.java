@@ -32,7 +32,7 @@ public class AutoUpdateTask extends AsyncTask<Long, Void, String> {
 
     private final static String GET_BUNDLE_URL = "https://upd.appery.io/update/6fce9d80-c21c-4a7f-8bd3-b1cd1b8ab94d.zip";
 
-    private static final Long BUILD_TIMESTAMP_MILLISEC = 1492685260 * 1000L;
+    private static final Long BUILD_TIMESTAMP_MILLISEC = 1492692266 * 1000L;
 
     private static final String[] JQM_ASSETS_TO_COPY = new String[]{
             "cordova.js",

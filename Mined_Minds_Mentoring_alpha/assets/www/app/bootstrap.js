@@ -38,8 +38,10 @@
             "x2js": "../libs/x2js/xml2json",
             "$App/crouterconfig": "../libs/apperyio/crouterconfig",
             '$Home': 'pages/Home',
-            '$Info': 'pages/Info',
-            '$Profile': 'pages/Profile'
+            '$Creat_Account': 'pages/Creat_Account',
+            '$login': 'pages/login',
+            '$Profile': 'pages/Profile',
+            '$Forgot_Password': 'pages/Forgot_Password'
         },
         waitSeconds: 100,
         shim: {
