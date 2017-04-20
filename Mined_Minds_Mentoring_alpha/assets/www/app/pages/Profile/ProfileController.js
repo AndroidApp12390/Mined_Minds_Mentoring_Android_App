@@ -21,7 +21,6 @@ define(['require', 'app'], function(require, APP) {
         /**
          * user controller variables
          */
-        $scope.showSpinner1 = Apperyio.EntityAPI('Boolean');
     }
 
 });
