@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/dovico/TECH_HIRE/Mined_Minds_Mentoring_Android_App/Mined_Minds_Mentoring_alpha/CordovaLib/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/dovico/TECH_HIRE/Mined_Minds_Mentoring_Android_App/Mined_Minds_Mentoring_alpha/CordovaLib/src/debug/jniLibs"/></dataSet></merger>
